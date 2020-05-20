@@ -1,1 +1,62 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: normal;
+}
+
+body {
+  background: white;
+}
+
+i {
+  font-size: 44px;
+  color: white;
+}
+
+i:hover {
+  color: rgba(255, 255, 255, 0.733);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#3e1ef2), to(#ae80d6));
+  background: linear-gradient(90deg, #3e1ef2 0%, #ae80d6 100%);
+}
+
+.box2 {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#ae80d6), to(#3e1ef2));
+  background: linear-gradient(90deg, #ae80d6 0%, #3e1ef2 100%);
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px 10px;
+  margin: 30px 10px;
+  color: white;
+  font-size: 22px;
+}
+
+ul li:hover {
+  color: rgba(255, 255, 255, 0.733);
+}
+/*# sourceMappingURL=style.css.map */
