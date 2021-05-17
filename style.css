@@ -14,7 +14,6 @@ i {
   font-size: 44px;
   color: white;
 }
-
 i:hover {
   color: rgba(255, 255, 255, 0.733);
 }
@@ -27,7 +26,6 @@ i:hover {
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#3e1ef2), to(#ae80d6));
   background: linear-gradient(90deg, #3e1ef2 0%, #ae80d6 100%);
 }
 
@@ -35,7 +33,6 @@ i:hover {
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#ae80d6), to(#3e1ef2));
   background: linear-gradient(90deg, #ae80d6 0%, #3e1ef2 100%);
 }
 
@@ -48,15 +45,18 @@ p {
 ul {
   list-style-type: none;
 }
-
 ul li {
   padding: 10px 10px;
   margin: 30px 10px;
   color: white;
   font-size: 22px;
 }
-
 ul li:hover {
   color: rgba(255, 255, 255, 0.733);
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
