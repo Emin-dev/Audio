@@ -19,7 +19,7 @@ function yuklendi() {
     for (i = 0; i <= list.childElementCount - 1; i++) {
         list.children[i].addEventListener("click", myid);
     }
-//   
+
     let name = document.querySelector('p')
     let btn = document.querySelector('#playSound');
     btn.addEventListener('click', function () {
